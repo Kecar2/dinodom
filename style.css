@@ -5,3 +5,25 @@
 button:nth-of-type(odd) {
   background-color: rgb(54, 17, 17);
 }
+
+.eventos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+  border: 1px solid black;
+}
+
+.eventos:hover {
+  cursor: pointer;
+}
+
+.eventos:nth-of-type(odd) {
+  background-color: lightblue;
+}
+
+h2 {
+  text-align: center;
+  margin: 0;
+  font-size: 1.2rem;
+}
