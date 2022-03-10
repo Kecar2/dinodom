@@ -6,6 +6,10 @@ button:nth-of-type(odd) {
   background-color: rgb(54, 17, 17);
 }
 
+p {
+  border: 1px solid black;
+}
+
 .eventos {
   display: flex;
   justify-content: center;

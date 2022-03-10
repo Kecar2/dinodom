@@ -10,11 +10,13 @@
     <link rel="stylesheet" href="style.css">
 
     <script defer src="dinodom.js"></script>
+    <script defer src="otroseventos.js"></script>
+
 
     <title>El DinoDOM</title>
 </head>
 
-<body>
+<body class="cuerpo">
     <header class="container">
         <h1 id="title" class="titulo">El DinoDOM</h1>
     </header>
@@ -37,7 +39,7 @@
 
     <section class="container">
         <div class="grid" style="gap:1rem">
-            <div id="click" class="eventos">
+            <div id="click" class="eventos" onclick="divClicado();">
                 <h2>click</h2>
             </div>
             <div id="dobleClick" class="eventos">
@@ -47,6 +49,15 @@
                 <h2>mouseenter/mouseout</h2>
             </div>
         </div>
+    </section>
+    <section class="container">
+        <h2>Animales</h2>
+        <p>Gato</p>
+        <p>Perro</p>
+        <p>Cabra</p>
+        <p>Tamil</p>
+        <p>Oso</p>
+        <p>Rinoceronte</p>
     </section>
 </body>
 
